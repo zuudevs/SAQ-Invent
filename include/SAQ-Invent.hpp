@@ -1,12 +1,8 @@
-/**
- * @file SAQ-Invent.hpp
- * @brief Main header for SAQ-Invent
- * @version 1.0.0
- */
-
 #pragma once
 
-namespace SAQ-Invent {
+#include "core/manager.hpp"
+
+namespace saq {
 
 class Application {
 public:
@@ -16,4 +12,4 @@ public:
     void run();
 };
 
-} // namespace SAQ-Invent
+} // namespace saq

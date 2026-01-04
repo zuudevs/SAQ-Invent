@@ -28,7 +28,7 @@ enum class State : uint8_t {
 }
 
 [[nodiscard]] inline constexpr bool isBorrowed(State state) noexcept {
-	return (state & State::Broken) == State::Broken;
+	return (state & State::Borrowed) == State::Borrowed;
 }
 
 } // namespace sq::state
